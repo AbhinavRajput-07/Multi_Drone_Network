@@ -1,5 +1,7 @@
 ## Adding The Required Repositories.
 
+##Simulation Repository
+
 ## Clone IQ Simulation ROS package 
 
 ```
@@ -23,3 +25,16 @@ update global variables
 ```
 source ~/.bashrc
 ```
+
+# Guidance Navigation and Control Repository
+
+
+## Clone the IQ GNC ROS package
+
+First, we will clone the IQ GNC ROS package. This ROS package comes with my GNC API that will make scripting the drone easy. It will also come with a worked out solution to this tutorial 
+```
+git clone https://github.com/Intelligent-Quads/iq_gnc.git
+```
+
+this package contains the file `gnc_functions.hpp`. This file contains a bunch of useful functions for creating intelligent drone applications.
+
