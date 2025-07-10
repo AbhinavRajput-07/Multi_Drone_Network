@@ -1,6 +1,6 @@
-## Adding The Required Repositories.
+##Adding The Required Repositories.
 
-##Simulation Repository
+## Simulation Repository
 
 ## Clone IQ Simulation ROS package 
 
@@ -14,17 +14,7 @@ run the following to tell gazebo where to look for the iq models.
 echo "GAZEBO_MODEL_PATH=${GAZEBO_MODEL_PATH}:$HOME/catkin_ws/src/iq_sim/models" >> ~/.bashrc
 ```
 
-## Build instructions
-Inside `catkin_ws`, run `catkin build`:
 
-```
-cd ~/catkin_ws
-catkin build
-```
-update global variables
-```
-source ~/.bashrc
-```
 
 # Guidance Navigation and Control Repository
 
@@ -38,3 +28,15 @@ git clone https://github.com/Intelligent-Quads/iq_gnc.git
 
 this package contains the file `gnc_functions.hpp`. This file contains a bunch of useful functions for creating intelligent drone applications.
 
+
+## Build instructions
+Inside `catkin_ws`, run `catkin build`:
+
+```
+cd ~/catkin_ws
+catkin build
+```
+update global variables
+```
+source ~/.bashrc
+```
