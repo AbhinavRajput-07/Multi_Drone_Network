@@ -4,7 +4,7 @@
 
 ## 1. Install ROS
 
-   - Do _Desktop-full Install_
+   - Do Desktop-full Install
    - Follow until _Step 1.7_ at the end of the page
 
    First, install **ROS Noetic** using the following instructions: http://wiki.ros.org/noetic/Installation/Ubuntu
